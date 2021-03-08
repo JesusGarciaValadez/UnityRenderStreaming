@@ -22,7 +22,7 @@ namespace Unity.RenderStreaming
     {
 #pragma warning disable 0649
         [SerializeField, Tooltip("Address for signaling server")]
-        private string urlSignaling = "http://localhost";
+        private string urlSignaling = "https://unity-render-streaming-api-3mhma.ondigitalocean.app";
 
         [SerializeField, Tooltip("Array to set your own STUN/TURN servers")]
         private RTCIceServer[] iceServers = new RTCIceServer[]
